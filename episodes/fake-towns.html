@@ -7,70 +7,71 @@
   <title>Document</title>
 </head>
 <body>
-  <!-- Include the tag for introductory content -->
 
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
+  <header role="banner">
+    <a href="../index.html"><img src="../images/sysk-logo.webp" alt="logo of the podcast stuff you should know"/></a>
+    <nav role="navigation">
+      <ul>
+        <li><a href="../about.html" aria-label="go to the about page">About</a></li>
+        <li><a href="episodes.html" aria-label="go to the episodes page">Episodes</a></li>
+      </ul>
+    </nav>
+</header>
 
-
-
-  <!-- Add an element that represents the main content of the page --> 
-
-
-    <!-- Include a tag that groups the information about this particular podcast -->
-
-      <!-- Display image relevant to topic -->
-
-      <!-- Main heading for the page -->
+<main>
+  <section>
+    <img src="../images/fake-towns.jpeg" alt="the cover of the episode the history of fake towns is a lady near a street sign"/>
+    <h1>
       The History of Fake Towns
-
+    </h1>
+    <p>
       October 18, 2022
       51 min
-
+    </p>
+    <p>
       There have been a lot of fake towns built throughout history for a lot of different reasons. Tune in to learn about some of these bogus burbs.
+    </p>
 
-      <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/">Click here to play episode on iHeart -->
-      Click here to play episode on iHeart
-
-
-    <!-- Include a tag that groups the other two podcasts -->  
-
-      <!-- Section heading -->      
+    <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/" aria-label="click to hear the the history of fake towns on iheart">Click here to play episode on iHeart</a>  
+  </section>
+</main>
+<section>
+    <h2>
       You might also like...
+    </h2>
+    
+<article>
+  <h3>
+    Interesting Origins of Everday phrases
+  </h3>
 
-      <!-- Include a tag for independent, self-contained content content -->
-        
-        <!-- Section sub-heading -->
-        Interesting Origins of Everday phrases
+  <img src="../images/everyday-phrases.jpeg" alt="cover of the episode interesting origins of everyday phrases podcast"/> 
+  <p>
+    We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
+  </p>
 
-        <!-- Display image relevant to topic -->
+  <a href="../episodes/everyday-phrases.html" aria-label="Learn more about the episode interesting origins of everydat phrases">Learn more</a>
+</article>
 
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-        
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-
-
-      <!-- Include a tag for independent, self-contained content content -->
-        
-        <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
-
-        <!-- Display image relevant to topic -->
-        
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
-
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-     
-
-        
-  <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
-  
+<article>
+  <h3>
+    Doppelgängers: Hey you, you're me!
+  </h3>
+  <img src="../images/doppelgangers.jpeg" alt="the cover of the episode Doppelgängers: Hey you, you're me is the silhouette of two men facing each other"/>
+  <p>
+    Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
+  </p>
+  <a href="doppelgangers.html" aria-label="Learn more about the episode doppelgangers hey you are me">Learn more</a>
+  </article>        
+</section>
+    
+<footer role="contentinfo">
+  <p>
+    <small>
+      &copy; SYSK 2023
+    </small>
+  </p>
+</footer>
     
 </body>
 </html>
